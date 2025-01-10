@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.bg-dark-secundary {
+    background-color: #2d3748;
+}
+
+.texthighlight {
+    color: #63b3ed;
+}
+
+.border-higtlight {
+    border-color: #63b3ed;
+}
