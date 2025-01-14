@@ -1,6 +1,6 @@
 import React from "react";
 
-const Skills = () => {
+const Skills: React.FC = () => {
     const skillsData = [
         { name: "HTML", percentage: 80, icon: "https://cdn-icons-png.flaticon.com/512/732/732212.png" },
         { name: "CSS", percentage: 80, icon: "https://cdn-icons-png.flaticon.com/512/732/732190.png" },
@@ -9,8 +9,8 @@ const Skills = () => {
     ];
 
     return (
-        <section className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-medium text-gray-200 mb-6">Habilidades en construcción</h3>
+        <section id="skills" className="bg-[#0A192F] text-white py-16 px-8  items-center md:items-start">
+            <h3 className="flex justify-center text-4xl font-bold text-white mb-4">Habilidades en construcción</h3>
             <ul className="space-y-6">
                 {skillsData.map((skill, index) => (
                     <li key={index} className="flex items-center gap-6">

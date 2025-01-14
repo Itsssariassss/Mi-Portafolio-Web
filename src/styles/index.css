@@ -1,6 +1,8 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import '@fortawesome/fontawesome-free/css/all.css';
+
 
 .bg-dark-secundary {
     background-color: #2d3748;
@@ -13,3 +15,8 @@
 .border-higtlight {
     border-color: #63b3ed;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  

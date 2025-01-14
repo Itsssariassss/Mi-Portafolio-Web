@@ -1,29 +1,29 @@
 import React from "react";
 
-const Contacts = () => {
+const Contacts: React.FC = () => {
 
     return (
-    <section id="contacto" className="py-20 px-6 bg-white">
-        <div className="max-w-7x1 mx-auto">
-            <h2 className="text-4xl font-semibold text-gray-800 text-center">Contacto</h2>
-            <p className="text-lg text-gray-600 text-center mt-4">Texto...</p>
-            <form className="mt-8 max-w-2xl mx-auto bg-gray-50 p-8 rounded-lg shadow-md">
-                <div className="mb-6">
-                    <label htmlFor="nombre" className="block text-sm font-medium text-gray-700">Nombre</label>
-                    <input type="text" id="nombre" className="mt-2 block w-full px-4 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Tu nombre" />
+        <section id="contacto" className="bg-[#0A192F] text-white py-16 px-8 flex flex-col md:flex-row items-center md:items-start">
+            <div className="bg-gray-800 p-6 rounded-lg shadow-md max-w-4xl mx-auto mb-10 animate-fade-in">
+
+                {/* Formulario de contacto */}
+                <div>
+                    <h2 className="flex justify-center text-2xl font-bold mb-6">Contáctame</h2>
+                    <form className="space-y-4">
+                        <input
+                            type="text"
+                            placeholder="Nombre"
+                            className="w-full bg-[#333333] text-white p-3 rounded-lg outline-none focus:ring-2 focus:ring-[#64FFDA]"
+                        />
+                        <input type="email" placeholder="Correo Electronico"
+                            className="w-full bg-[#333333] text-white p-3 rounded-lg outline-none focus:ring-2 focus:ring-[#64FFDA]" />
+                        <textarea id="Message" placeholder="Mensaje" rows={5}
+                            className="w-full bg-[#333333] text-white p-3 rounded-lg outline-none focus:ring-2 focus:ring-[#64FFDA]"></textarea>
+                        <button type="submit" className="bg-[#64FFDA] text-black px-6 py-2 rounded-lg hover:bg-[#52e0c7] transition-colors">SEND MESSAGE</button>
+                    </form>
                 </div>
-                <div className="mb-6">
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700">Correo Electrónico</label>
-                    <input type="email" id="email" className="mt-2 block w-full px-4 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Tu correo Electronico" />
-                </div>
-                <div className="mb-6">
-                    <label htmlFor="mensaje" className="block text-sm font-medium text-gray-700">Mensaje</label>
-                    <textarea id="mensaje" rows={4} className="mt-2 block w-full px-4 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Tu mensaje"></textarea>
-                </div>
-                <button type="submit" className="w-full bg-blue-600 text-white py-2 px-4 round-md hover:bg-blue-700 focus:outline-none focus-ring-2 focus:ring-blue-500">Enviar</button>
-            </form>
-        </div>
-    </section>
+            </div>
+        </section>
     );
 }
 
