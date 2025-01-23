@@ -10,38 +10,23 @@ const projects = [
         description:
             'Este proyecto es una página web sencilla que simula el menú de un café llamado "Camper Café". Está diseñado utilizando únicamente HTML y CSS, con un enfoque en la estructura y el diseño básico de una página de menú para establecimientos de comida.',
         image: '/images/CoffeeMenu.png',
-<<<<<<< HEAD
         liveLink: 'https://itsssariassss.github.io/Coffee-Menu/',
-=======
-        liveLink: '',
->>>>>>> 19d372f12c5d0a0e5ce45c090fed67d319b3ebfe
         githubLink: "https://github.com/Itsssariassss/Coffee-Menu.git",
     },
     {
         id: 2,
         title: 'Calculadora Básica',
-<<<<<<< HEAD
         description: 'Este proyecto es una calculadora básica creada con HTML, CSS y JavaScript. Es ideal para aprender conceptos básicos de desarrollo web y trabajar con eventos en JavaScript.',
         image: '/images/Calculadora.png',
         liveLink: 'https://itsssariassss.github.io/Calculadora-electron/',
         githubLink: 'https://github.com/Itsssariassss/Calculadora-electron.git',
-=======
-        description: 'Una calculadora funcional con operaciones básicas.',
-        image: '/images/Calculadora.jpg',
-        liveLink: '',
-        githubLink: '',
->>>>>>> 19d372f12c5d0a0e5ce45c090fed67d319b3ebfe
     },
     {
         id: 3,
         title: 'To-Do List',
         description: 'Una aplicación para gestionar tareas diarias.',
         image: '/images/ToDoList.png',
-<<<<<<< HEAD
         liveLink: 'https://github.com/Itsssariassss/To-Do-List',
-=======
-        liveLink: '',
->>>>>>> 19d372f12c5d0a0e5ce45c090fed67d319b3ebfe
         githubLink: '',
     },
 ];
@@ -64,17 +49,10 @@ const Projects: React.FC = () => {
                                 <p className="text-gray-400 mb-4">{project.description}</p>
                                 <div className="flex justify-between">
                                     {project.liveLink && (
-<<<<<<< HEAD
                                         <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Ver Proyecto</a>)}
 
                                     {project.githubLink && (
                                         <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Código Fuente</a>
-=======
-                                        <a href="{project.liveLink}" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Ver Proyecto</a>)}
-
-                                    {project.githubLink && (
-                                        <a href="{project.githubLink}" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Código Fuente</a>
->>>>>>> 19d372f12c5d0a0e5ce45c090fed67d319b3ebfe
                                     )}
                                 </div>
                             </div>

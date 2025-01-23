@@ -11,11 +11,7 @@ const Home: React.FC = () => {
                     <p className="text-lg mb-6">  Desarrolladora Web apasionada por crear experiencias únicas.</p>
                     <div className="flex justify-center lg:justify-start gap-4 mb-6">
                         <a href="#contacto" className="bg-[#64FFDA] text-black py-2 px-4 rounded hover:bg-[#0A192F] border border-[#64FFDA] hover:text-[#64FFDA] transition">Hire Me</a>
-<<<<<<< HEAD
                         <a href="/public/images/CV JADE PICHARDO.pdf" target="_blank" rel="noopener noreferrer" className="bg-transparent border border-[#64FFDA] text-[#64FFDA] py-2 px-4 rounded hover:bg-[#64FFDA] hover:text-black transition">Download CV</a>
-=======
-                        <a href="/src/assets/CV JADE PICHARDO.pdf" target="_blank" rel="noopener noreferrer" className="bg-transparent border border-[#64FFDA] text-[#64FFDA] py-2 px-4 rounded hover:bg-[#64FFDA] hover:text-black transition">Download CV</a>
->>>>>>> 19d372f12c5d0a0e5ce45c090fed67d319b3ebfe
                     </div>
 
                     {/* Iconos personales */}
@@ -28,11 +24,7 @@ const Home: React.FC = () => {
                                 className="rounded-full border-4 border-highlight w-12 h-12 object-cover"
                             />
                         </a>
-<<<<<<< HEAD
                         <a href="https://www.linkedin.com/in/jade-ariass-97959133b/" target="_blank" rel="noopener noreferrer">
-=======
-                        <a href="#" target="_blank" rel="noopener noreferrer">
->>>>>>> 19d372f12c5d0a0e5ce45c090fed67d319b3ebfe
                             <img
                                 src="/public/images/linkedin.png"
                                 alt="Linkedin"
@@ -49,11 +41,7 @@ const Home: React.FC = () => {
                     </div>
                 </div>
                 <div className="lg:w-1/2 order-1 lg:order-2 flex justify-center lg:justify-end">
-<<<<<<< HEAD
                     <img src="/public/images/Perfil.JPG" alt="" className="rounded-full border-4 border-higlight w-64 h-64 object-cover" />
-=======
-                    <img src="/public/images/bugs.avif" alt="" className="rounded-full border-4 border-higlight w-64 h-64 object-cover" />
->>>>>>> 19d372f12c5d0a0e5ce45c090fed67d319b3ebfe
                 </div>
                 
             </div>
