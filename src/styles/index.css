@@ -1,22 +1,57 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-@import '@fortawesome/fontawesome-free/css/all.css';
-
-
 .bg-dark-secundary {
-    background-color: #2d3748;
+  background-color: #2d3748;
 }
 
 .texthighlight {
-    color: #63b3ed;
+  color: #63b3ed;
 }
 
 .border-higtlight {
-    border-color: #63b3ed;
+  border-color: #63b3ed;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+.bar {
+  width: 0%;
+  animation: loadBar 2s ease-in-out forwards;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif; /* Si no estás usando @apply, asegúrate de definir la fuente */
+}
+
+.typing-effect {
+  display: inline-block;
+  border-right: 3px solid #64FFDA; 
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 2s steps(12) 1s forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
   }
-  
+  to {
+    width: 85%;
+  }
+}
+
+/* Animación para el parpadeo del cursor */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

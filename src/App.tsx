@@ -5,7 +5,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Contacts from "./components/Contact";
+import RoadMap from "./components/RoadMap";
+import Footer from "./components/Footer";
 
 
 const App: React.FC = () => {
@@ -16,7 +17,8 @@ const App: React.FC = () => {
             <About />
             <Skills />
             <Projects />
-            <Contacts />
+            <RoadMap />
+            <Footer />
 
         </div>
     );
